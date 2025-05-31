@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "npx playwright install",
+    "test": "npx playwright test",
     "test:local": "ENV=local npx playwright test",
     "test:stage": "ENV=stage npx playwright test",
     "test:prod": "ENV=prod npx playwright test",
