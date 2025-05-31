@@ -44,7 +44,7 @@ This project contains end-to-end UI automation tests built using **Playwright** 
 
    *(Automatically handled via `postinstall` script, but you can also run this manually)*
    ```bash
-   npx playwright install
+   npx playwright install chromium
    ```
 
 4. **Set up environment config**
