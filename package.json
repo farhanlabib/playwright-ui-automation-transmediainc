@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm init playwright@latest",
+    "postinstall": "npx playwright install",
     "test:local": "ENV=local npx playwright test",
     "test:stage": "ENV=stage npx playwright test",
     "test:prod": "ENV=prod npx playwright test",
