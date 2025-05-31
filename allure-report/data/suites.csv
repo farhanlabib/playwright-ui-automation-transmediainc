@@ -1,4 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","1290","Add two lists and verify","chromium","Sat May 31 14:32:08 BDT 2025","passed","Sat May 31 14:32:10 BDT 2025","Board and List Operations","test.spec.js","",""
-"","1234","Delete a list","chromium","Sat May 31 14:32:10 BDT 2025","failed","Sat May 31 14:32:11 BDT 2025","Board and List Operations","test.spec.js","",""
-"","2022","Create board and verify","chromium","Sat May 31 14:32:05 BDT 2025","passed","Sat May 31 14:32:08 BDT 2025","Board and List Operations","test.spec.js","",""

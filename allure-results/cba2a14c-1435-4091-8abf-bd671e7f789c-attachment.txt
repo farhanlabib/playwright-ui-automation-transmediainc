@@ -1,2 +1,0 @@
-"List A" is successfully created.
-"List B" is successfully created.
