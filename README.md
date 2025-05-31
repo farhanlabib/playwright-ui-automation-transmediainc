@@ -41,6 +41,7 @@ This project contains end-to-end UI automation tests built using **Playwright** 
    ```
 
 3. **Install Playwright**
+
    *(Automatically handled via `postinstall` script, but you can also run this manually)*
    ```bash
    npx playwright install
@@ -50,6 +51,24 @@ This project contains end-to-end UI automation tests built using **Playwright** 
    ```bash
    cp env/.env.local
    ```
+
+---
+### 🔧 Playwright Installation
+
+By default, this project installs only the **Chromium** browser to keep the setup lightweight.
+
+If you need to test in **Firefox** or **WebKit**, install them manually:
+
+```bash
+npx playwright install firefox
+npx playwright install webkit
+```
+
+This behavior is controlled via the following script in `package.json`:
+
+```json
+"postinstall": "npx playwright install chromium"
+```
 
 ---
 
@@ -108,7 +127,7 @@ npm run test:prod
   "test:stage": "ENV=stage npx playwright test",
   "test:prod": "ENV=prod npx playwright test",
   "report": "npx allure generate allure-results --clean -o allure-report && npx allure open allure-report",
-  "postinstall": "npx playwright install"
+  "postinstall": "npx playwright install chromium"
 }
 ```
 
