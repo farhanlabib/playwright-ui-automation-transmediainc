@@ -1,7 +1,14 @@
-
-# Playwright
+# Node.js dependencies
 node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
+
+# Playwright test results and reports
+test-results/
+playwright-report/
+
+# Allure results and generated report
+allure-results/
+allure-report/
+
+# OS-specific
+.DS_Store
+Thumbs.db
